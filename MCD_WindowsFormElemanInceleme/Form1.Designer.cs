@@ -133,6 +133,7 @@ namespace MCD_WindowsFormElemanInceleme
             this.btnResimSec.TabIndex = 3;
             this.btnResimSec.Text = "RESİM SEÇ";
             this.btnResimSec.UseVisualStyleBackColor = true;
+            this.btnResimSec.Click += new System.EventHandler(this.btnResimSec_Click);
             // 
             // txtUrunTanim
             // 
@@ -215,6 +216,7 @@ namespace MCD_WindowsFormElemanInceleme
             this.btnKaydet.TabIndex = 18;
             this.btnKaydet.Text = "KAYDET";
             this.btnKaydet.UseVisualStyleBackColor = true;
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
             // pctUrunResim
             // 
