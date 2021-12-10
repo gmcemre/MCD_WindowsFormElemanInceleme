@@ -87,6 +87,11 @@ namespace MCD_WindowsFormElemanInceleme
             //RichText
             kayitUrun.urunAciklama = txtAciklama.Text;
 
+            //check box Listeleme
+            //selectedItem: 1 ürün bilgisi getirir özel tiplerde kullanılır.
+            //selectedText: özel bir tip kullanıyorsanız bir ürün seçimi dahi olsa selected text kısmında ayarlamış olduğumuz değeri yakalarız.
+            //selectedValue: kısmında ise text kısmında olduğu gibi value kısmında görmek istediğimiz değeri yakalarız.
+
         }
     }
 }
