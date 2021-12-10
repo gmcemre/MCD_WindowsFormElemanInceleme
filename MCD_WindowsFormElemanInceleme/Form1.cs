@@ -86,6 +86,7 @@ namespace MCD_WindowsFormElemanInceleme
 
             //RichText
             kayitUrun.urunAciklama = txtAciklama.Text;
+
         }
     }
 }
