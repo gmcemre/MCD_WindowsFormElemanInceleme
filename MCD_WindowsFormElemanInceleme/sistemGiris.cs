@@ -19,7 +19,7 @@ namespace MCD_WindowsFormElemanInceleme
 
         private void btnGirisKontrol_Click(object sender, EventArgs e)
         {
-            if (!string.IsNullOrEmpty(txtKullaniciAdi.Text) && string.IsNullOrEmpty(txtSifre.Text))
+            if (!string.IsNullOrEmpty(txtKullaniciAdi.Text) && !string.IsNullOrEmpty(txtSifre.Text))
             {
                 if (txtKullaniciAdi.Text == "admin" && txtSifre.Text == "1")
                 {
