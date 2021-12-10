@@ -9,13 +9,13 @@ namespace MCD_WindowsFormElemanInceleme
     public class urun
     {
         public Guid id { get; set; }
-        public string  urunResimYol { get; set; }
-        public string  urunTanim { get; set; }
-        public string  urunKod { get; set; }
-        public string  urunRenk { get; set; }
-        public string  urunAciklama { get; set; }
-        public string  urunKategori { get; set; }
-        public List<urunOzellikTanim >  urunOzellikListe { get; set; }
+        public string urunResimYol { get; set; }
+        public string urunTanim { get; set; }
+        public string urunKod { get; set; }
+        public string urunRenk { get; set; }
+        public string urunAciklama { get; set; }
+        public string urunKategori { get; set; }
+        public List<urunOzellikTanim> urunOzellikListe { get; set; }
         public bool ekGaranti { get; set; }
 
     }
