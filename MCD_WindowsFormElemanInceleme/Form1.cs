@@ -92,6 +92,17 @@ namespace MCD_WindowsFormElemanInceleme
             //selectedText: özel bir tip kullanıyorsanız bir ürün seçimi dahi olsa selected text kısmında ayarlamış olduğumuz değeri yakalarız.
             //selectedValue: kısmında ise text kısmında olduğu gibi value kısmında görmek istediğimiz değeri yakalarız.
 
+            foreach (object item in cltUrunOzellikleri.CheckedItems)
+            {
+                //Kısa kod yazımı 
+                //kayitUrun.urunOzellikListe.Add((urunOzellikTanim)item);
+
+                //Uzun kod yazımı
+                urunOzellikTanim Temp = (urunOzellikTanim)item;
+                kayitUrun.urunOzellikListe.Add(Temp);
+                //bu kısımda InnerType olarak kulandığımız List generic eğer yapıcı metot ile örneklenmediyse null ref hatası alırısınız...
+                //Bunu çözmek için ctor(urun) metot içinde List<T> koleksiyonu örneklemeniz gereklidir.
+            }
         }
     }
 }
